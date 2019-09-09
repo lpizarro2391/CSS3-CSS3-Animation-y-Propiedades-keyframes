@@ -10,19 +10,19 @@
         height: 600px;
         border: 2px solid;
         margin: 0 auto;
-        background-color:blue;
+        background-color:#DBFFF1;
+        text-align: center;
         transition:background 1s;
       }
-      #contenedor img {
-        width: 200px;
-        height: 200px;
-        transition-property: width, height;
-        transition-duration:2s,4s;
+      @-webkit-keyframes miAnimacion{
+        from{
+          transform: rotate(45deg);
+        }
+        to{
+          height: 0;
+        }
       }
-      #contenedor img:hover{
-        width:100%;
-        height:100%;
-      }
+
     </style>
   </head>
   <body>
